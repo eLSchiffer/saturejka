@@ -7,7 +7,6 @@ html {
     background-color: #FFEFEF;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    text-align: justify;
     display: flex;
 
 }
@@ -19,6 +18,8 @@ footer {
 
 body {
     background-color: #FFFFFF;
+    justify-content: center;
+    width: 90%;
 }
 
 h1,
@@ -30,9 +31,29 @@ h3 {
     font-weight: normal;
 }
 
+.uvodni_foto {
+    display: flex;
+    flex-basis: 28%;
+}
+
+.jidlo,
+.o_restauraci {
+    display: flex;
+}
+
+.dish1,
+.dish3 {
+    order: -3;
+}
+
 .zobraz_menu {
     background-color: #FFEFEF;
     border: none;
     padding: 10px;
 
+}
+
+.o_nas {
+    padding: 10px;
+    margin: 10px;
 }
