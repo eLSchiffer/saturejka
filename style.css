@@ -1,0 +1,28 @@
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+html,
+header,
+footer {
+    background-color: #FFEFEF;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.zobraz_menu {
+    background-color: #FFEFEF;
+    border: none;
+    padding: 10px;
+
+}
