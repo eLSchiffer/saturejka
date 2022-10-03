@@ -8,37 +8,82 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     display: flex;
+    justify-content: center;
 
 }
 
 header,
 footer {
     background-color: #FFEFEF;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
 }
 
 body {
     background-color: #FFFFFF;
     justify-content: center;
-    width: 90%;
+    width: 80%;
+}
+
+.uvod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uvod1 {
+    justify-content: center;
+    padding-top: 50px;
+
 }
 
 h1,
 h2 {
     font-family: 'Playfair Display', serif;
+
+}
+
+h1 {
+    text-align: center;
 }
 
 h3 {
     font-weight: normal;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .uvodni_foto {
     display: flex;
-    flex-basis: 28%;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.jidlo,
+.uvodni_foto>img {
+    width: calc(80%/3);
+    max-width: fit-content;
+
+}
+
+.jidlo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
 .o_restauraci {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 .dish1,
@@ -50,10 +95,29 @@ h3 {
     background-color: #FFEFEF;
     border: none;
     padding: 10px;
-
+    width: 150px;
 }
 
 .o_nas {
     padding: 10px;
     margin: 10px;
+    width: 40%;
+}
+
+.o_restauraci>div {
+    text-align: left;
+}
+
+.jidlo>img {
+    max-width: 30%;
+}
+
+.popis_jidla>p {
+    padding-bottom: 30px;
+}
+
+.popis_jidla {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
 }
